@@ -14,3 +14,30 @@
 ## About me
 
 Hi there! I am a beginner Front-End developer. I consider myself a team player and want to be part of a friendly and professional team where I can develop my skills to achieve team results. I am an open-minded and self-organized person. I quickly learn and adapt to new things.
+
+## Skills
+
+- HTML
+- CSS
+- JavaScript
+- Figma
+
+## Code example
+
+**Task:**
+Ask user to enter todays date number and check if that is even number and is in range [1; 30]. Alert user if todays day is even or odd, otherwise - The day is not exist!
+
+```
+function isEven(dayNumber) {
+  if (dayNumber % 2 === 0) {
+    alert("Today is an even day number");
+  } else {
+    alert("Today is not an even day number");
+  }
+}
+let dayNumber = prompt("What day number is today?");
+let condition =
+  dayNumber > 0 && dayNumber < 31
+    ? isEven(dayNumber)
+    : alert("The day is not exist!");
+```
