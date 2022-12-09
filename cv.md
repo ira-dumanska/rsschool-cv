@@ -41,3 +41,23 @@ let condition =
     ? isEven(dayNumber)
     : alert("The day is not exist!");
 ```
+
+## Experience
+
+- [Weather widget](https://weather-widget2022.netlify.app/)
+- [GoTo Lviv](https://go-to-lviv.netlify.app/)
+- [Body Scrub lending page](https://www.shecodes.io/workshops/shecodes-basics-fce9b431-f74c-4260-a633-606494ff1757/projects/1212334)
+
+## Education
+
+Forestry University of Ukraine | Design
+
+##### Courses
+
+- SheCodes (in progress)
+- RS School (in progress)
+
+### Languages
+
+- Ukrainian - native
+- English - intermediate
