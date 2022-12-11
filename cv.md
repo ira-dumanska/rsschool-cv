@@ -7,8 +7,8 @@
 ## Contacts
 
 - Phone: +48 880 584 863
-- Telegram: [t.me/Iren_mi](t.me/Iren_mi)
-- Email: [irena.dumanska@gmail.com](irena.dumanska@gmail.com)
+- Telegram: t.me/Iren_mi
+- Email: irena.dumanska@gmail.com
 - LinkedIn: [https://www.linkedin.com/in/iryna-dumanska-b88735214/](https://www.linkedin.com/in/iryna-dumanska-b88735214/)
 
 ## About me
