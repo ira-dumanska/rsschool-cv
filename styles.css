@@ -147,6 +147,9 @@ hr {
   color: white;
   margin-bottom: 10px;
 }
+.contacts_list {
+  list-style: none;
+}
 .contacts_type {
   font-weight: bold;
   font-size: 14px;
