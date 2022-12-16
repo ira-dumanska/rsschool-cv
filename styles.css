@@ -8,12 +8,16 @@ body {
   background-color: #dbe4f3;
   color: black;
 }
+hr {
+  width: 950px;
+  margin: 0 auto;
+}
 /*----Main----*/
 .main {
   display: flex;
   flex-direction: row-reverse;
-  width: 1000px;
-  margin: 40px auto;
+  width: 950px;
+  margin: 0 auto;
   box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
   background: #ffffff;
 }
@@ -106,7 +110,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  text-decoration: none;
+  transition: all 0.2em ease-in-out;
 }
 .links:hover {
   color: #fb6d3a;
@@ -120,4 +124,105 @@ body {
 /*----Education----*/
 .education {
   margin: 0 0 30px 0;
+}
+
+/*----sidebar----*/
+.sidebar {
+  background-color: rgb(34, 34, 32);
+  width: 370px;
+  padding-top: 40px;
+}
+.photo {
+  margin-left: 35px;
+}
+/*----Contacts---*/
+.contact_section {
+  margin: 50px 0 0 40px;
+}
+.aside_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: white;
+  margin-bottom: 10px;
+}
+.contacts_type {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+  margin-right: 5px;
+}
+.contacts_link {
+  color: #565e6a;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  transition: all 0.2em ease-in-out;
+}
+.contacts_link:hover {
+  color: #fb6d3a;
+}
+/*---Skills---*/
+.skills {
+  margin: 50px 0 0 40px;
+}
+.list {
+  padding: 0 0 0 17px;
+}
+.dots {
+  color: #fb6d3a;
+}
+.dots_text {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  padding-right: 20px;
+}
+
+/*----footer----*/
+.footer {
+  height: 50px;
+  width: 950px;
+  margin: 0 auto;
+  background-color: #ffff;
+}
+.footer_item {
+  list-style: none;
+}
+.footer_link {
+  color: #595959;
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  right: -40px;
+  top: 15px;
+  transition: all 0.2em ease-in-out;
+}
+.footer_link:hover {
+  color: #fb6d3a;
+}
+.logo_img {
+  display: block;
+  position: relative;
+  left: 770px;
+  bottom: 10px;
+  width: 70px;
+  transition: all 0.2em ease-in-out;
+}
+.logo_img:hover {
+  width: 71px;
+}
+.footer_year {
+  color: #595959;
+  font-size: medium;
+  font-weight: bold;
+  position: relative;
+  left: 870px;
+  bottom: 30px;
 }
