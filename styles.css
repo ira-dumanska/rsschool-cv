@@ -5,7 +5,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  background-color: #dbe4f3;
+  background-color: #eae6e6;
   color: black;
 }
 hr {
@@ -17,7 +17,7 @@ hr {
   display: flex;
   flex-direction: row-reverse;
   width: 950px;
-  margin: 0 auto;
+  margin: 40px auto 0px;
   box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
   background: #ffffff;
 }
@@ -110,6 +110,7 @@ hr {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+  text-decoration: none;
   transition: all 0.2em ease-in-out;
 }
 .links:hover {
