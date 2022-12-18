@@ -4,7 +4,258 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <!---Main-->
+    <main class="main">
+      <!---Main content-->
+      <section class="main_content">
+        <div class="about_section">
+          <h2 class="main_position">Junior Front-end developer</h2>
+          <h1 class="name">Iryna Dumanska</h1>
+          <p class="description">
+            I am a beginner Front-End developer. I consider myself a team player
+            and want to be part of a friendly and professional team where I can
+            develop my skills to achieve team results. I am an open-minded and
+            self-organized person. I quickly learn and adapt to new things.
+          </p>
+        </div>
+        <!---Experience-->
+        <section class="work_experience">
+          <h3 class="title">Work experience</h3>
+          <div class="companies">
+            <h3 class="position">
+              Client manager <span class="divider">|</span>
+              <span class="orange"> Mediostar</span>
+            </h3>
+            <p class="work_period">
+              Dec. 2021 - Aug. 2022 (8 month )
+              <span class="period_divider">|</span> Medicine and health
+            </p>
+            <h3 class="position">
+              Client manager <span class="divider">|</span>
+              <span class="orange"> Lazerhouse</span>
+            </h3>
+            <p class="work_period">
+              Mar. 2019 - Mar. 2021 (2 years)
+              <span class="period_divider">|</span> Medicine and health
+            </p>
+            <h3 class="position">
+              Restaurant manager <span class="divider">|</span>
+              <span class="orange"> Yaponahata</span>
+            </h3>
+            <p class="work_period">
+              Apr. 2015 - Mar. 2019 (4 year)
+              <span class="period_divider">|</span> Restaurants
+            </p>
+          </div>
+          <div class="projects">
+            <h4 class="main_position">Projects</h4>
+            <ol class="projects_list">
+              <li class="number">
+                <span class="list_text">
+                  <a
+                    href="https://weather-widget2022.netlify.app/"
+                    class="links"
+                    target="_blank">
+                    Weather widget
+                  </a>
+                  ................. <span class="brackets">[</span> HTML, CSS
+                  <span class="brackets">]</span>
+                </span>
+              </li>
+              <li class="number">
+                <span class="list_text">
+                  <a
+                    href="https://go-to-lviv.netlify.app/"
+                    class="links"
+                    target="_blank">
+                    GoTo Lviv
+                  </a>
+                  ..................................
+                  <span class="brackets">[</span> HTML, CSS, JavaScript
+                  <span class="brackets">]</span>
+                </span>
+              </li>
+              <li class="number">
+                <span class="list_text">
+                  <a
+                    href="https://www.shecodes.io/workshops/shecodes-basics-fce9b431-f74c-4260-a633-606494ff1757/projects/1212334"
+                    class="links"
+                    target="_blank">
+                    Body Scrub
+                  </a>
+                  ............................
+                  <span class="brackets">[</span> HTML, CSS, JavaScript
+                  <span class="brackets">]</span>
+                </span>
+              </li>
+            </ol>
+          </div>
+          <div class="projects">
+            <h4 class="main_position">Code example</h4>
+            <pre>
+              <code>
+function days(monthDay) {
+  if (monthDay % 2) {
+    return true;
+  } else {
+    return false;
+  }
+}
+let date = prompt("What date is today?");
+if (days(monthDay)) {
+  alert("Today is an even number");
+} else {
+  alert("Today is not an even number");
+}
+              </code>
+            </pre>
+          </div>
+        </section>
+        <!---Education-->
+        <section class="education">
+          <h3 class="title">Education</h3>
+          <h4 class="position">
+            <span class="orange">Forestry University of Ukraine</span>
+            <span class="main_position">
+              <span class="divider"> |</span> Design
+            </span>
+          </h4>
+          <p class="work_period">
+            Year of graduation 2017 <span class="period_divider">|</span> Lviv
+          </p>
+        </section>
+        <!---Courses-->
+        <section class="education">
+          <h3 class="title">Courses, trainings</h3>
+          <h4 class="position">
+            <span class="orange">SheCodes</span>
+          </h4>
+          <p class="work_period">(in progress)</p>
+          <h4 class="position">
+            <span class="orange">RS School</span>
+          </h4>
+          <p class="work_period">(in progress)</p>
+        </section>
+      </section>
+      <!---sidebar-->
+      <aside class="sidebar">
+        <img
+          src="img/my_photo.jpg"
+          alt="My photo"
+          class="photo"
+          height="390"
+          width="293" />
+        <!---Contacts-->
+        <section class="contact_section">
+          <h3 class="aside_title">Contacts</h3>
+          <div>
+            <ul class="contacts_list">
+              <li>
+                <p class="contacts_type">
+                  С :
+                  <a href="tel:+48880584863" class="contacts_link">
+                    +48 880 584 863
+                  </a>
+                </p>
+              </li>
+              <li>
+                <p class="contacts_type">
+                  E :
+                  <a
+                    href="mailto:irena.dumanska@gmail.com"
+                    target="_blank"
+                    class="contacts_link">
+                    irena.dumanska@gmail.com
+                  </a>
+                </p>
+              </li>
+              <li>
+                <p class="contacts_type">
+                  L :
+                  <a
+                    href="https://www.linkedin.com/in/iryna-dumanska-b88735214/"
+                    target="_blank"
+                    class="contacts_link">
+                    LinkedIn
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!---Tech skills-->
+        <section class="skills">
+          <h3 class="aside_title">Tech skills</h3>
+          <ul class="list">
+            <li class="dots"><span class="dots_text">HTML</span></li>
+            <li class="dots"><span class="dots_text">CSS</span></li>
+            <li class="dots"><span class="dots_text">JavaScript</span></li>
+            <li class="dots"><span class="dots_text">Figma</span></li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h3 class="aside_title">Soft skills</h3>
+          <ul class="list">
+            <li class="dots"><span class="dots_text">Teamwork</span></li>
+            <li class="dots">
+              <span class="dots_text">Communication Skills</span>
+            </li>
+            <li class="dots">
+              <span class="dots_text">High level of adaptability</span>
+            </li>
+            <li class="dots">
+              <span class="dots_text">Self-motivated and fast learner</span>
+            </li>
+            <li class="dots">
+              <span class="dots_text">Assertive and empathic</span>
+            </li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h3 class="aside_title">Languages</h3>
+          <ul class="list">
+            <li class="dots">
+              <span class="dots_text">English (intermediate)</span>
+            </li>
+            <li class="dots">
+              <span class="dots_text">Ukrainian (native)</span>
+            </li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+    <hr />
+    <footer class="footer">
+      <div class="footer_inner">
+        <ul class="footer_item">
+          <li>
+            <a
+              class="footer_link"
+              href="https://github.com/ira-dumanska"
+              target="_blank">
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a class="logo" href="https://rs.school/js-stage0/" target="_blank">
+              <img
+                src="img/rs_school_js.svg"
+                alt="RS Shool logo"
+                class="logo_img" />
+            </a>
+          </li>
+          <li class="footer_year">2022</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
